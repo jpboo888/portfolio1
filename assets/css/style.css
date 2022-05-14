@@ -181,26 +181,35 @@ footer {
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
-    width: 50%;
+    width: 100%;
+  }
+
+  .me  {
+    display: flex;
+    flex-wrap: wrap;
+
   }
 
   .me p  {
     line-height: 1.7;
     color: #ffffff;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     font-size: 20px;
-    text-align: center;
+    text-align: right;
+  }
+  
+  .me img  {
+    width: 30%;
   }
 
   /* PORTFOLIO */
 
   .projects  {
     width: 100%;
-    margin: 0 auto;
+    margin: 0, auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
 
   .project  {
@@ -208,6 +217,7 @@ footer {
     background: #313131;
     color: #e4e4e0;
     flex: 1;  
+    width: 30%;
   }
 
   .project img  {
