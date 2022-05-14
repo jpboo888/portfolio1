@@ -5,20 +5,20 @@
   }
   
   body {
+    background-color: #6f6e6e;
     color: #2e0808;
     font-family: Helvetica, Arial, sans-serif;
   }
 
   header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: #f1f1f1;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    background-image: url('../images/cp-4.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -27,7 +27,6 @@
 
   header h1 {
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 0;
     font-size: 36px;
     color: #302c17;
@@ -58,8 +57,7 @@
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.25vw;
   }
   
   header nav ul li a:hover {
@@ -177,7 +175,7 @@ footer {
   /* HERO STYLES END */
 
   .section-title {
-    font-size: 48px;
+    font-size: 32px;
     border-bottom: 3px solid;
     color: #ffffff;
     padding-bottom: 20px;
@@ -232,4 +230,17 @@ footer {
 
   .project-summary p  {
     font-size: 17px;
+  }
+
+  .contact-info h3 {
+    color: #e8e8e8;
+    font-size: 32px;
+  }
+
+  .contact-info p  {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+    color: #ffffff;
   }
