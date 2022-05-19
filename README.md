@@ -9,7 +9,8 @@ CSS
 
 ## Screenshot & Link
 
-
+![screenshot](./assets/images/portfolio%20screen%20shot.png)
+https://jpboo888.github.io/portfolio1/
 
 ## Contributing
 
