@@ -50,10 +50,6 @@
     list-style: none;
   }
   
-  header nav ul li {
-  
-  }
-  
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
@@ -312,7 +308,7 @@ footer {
       width: 100%;
     }
   
-    ..project {
+    .project {
       flex: 0 100%;
     }
 
@@ -377,6 +373,8 @@ footer {
       font-size: small;
   
   }
+
+}
 
   @media screen and (max-width: 980px) {
   
